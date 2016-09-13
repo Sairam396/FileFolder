@@ -5,22 +5,24 @@ import java.util.Scanner;
 public class FibinocciSeries {
 	
 public static void main(String[] args) {
-	Scanner scan=new Scanner(System.in);
+	int first=10;
+	int second=15;
+	int next;
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the number of terms for fibinocci series");
 	
-	System.out.println("How many numbers woud you want in the fibinocci series");
-	int n=scan.nextInt();
+	int numberOfTerms=scan.nextInt();
 	
-	int a,b,c;
-	a=1;
-	b=2;
+	System.out.println(first + "," + second);
 	
-	int flag=1;
-	while(flag<=n){
-		System.out.println(a+",");
-		c=a+b;
-		a=b;
-		b=c;
-		flag++;
+	for (int count=3; count <= numberOfTerms; count++);
+	
+	next= first+second;
+	System.out.println("," + next);
+	
+	first= second;
+	second=next;
+	
 		
 	}	
 	
