@@ -1,4 +1,4 @@
-//program for fin=binocci series
+//program for fibinocci series
 
 package com.learn.karthik;
 
