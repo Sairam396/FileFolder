@@ -11,7 +11,7 @@ public class Palindrome
  
     System.out.println("Input a string");
     inputString = in.nextLine();
- 
+ // develop brannch checkout
     int length  = inputString.length();
     int i, begin, end, middle;
  
