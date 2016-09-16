@@ -9,6 +9,7 @@ public class SubString {
 				SubString.findSubSequence("srm", "sairam");
 			}
 			
+	// develop branch checkout
 			public static void findSubSequence(String s1 ,String s2) {
 				
 				int i = 0;
